@@ -1,0 +1,111 @@
+@import 'left-sprite';
+
+.left{
+	flex: 0 0 220px;
+	padding: 0 0 20px 10px;
+}
+
+/* nav */
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	list-style: none;
+	border-bottom: 1px solid $border;
+}
+
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 15px 0 15px 50px;
+	color: $menu-black;
+	font-size: 1.1em;
+}
+
+/* end nav */
+
+/* advert */
+
+.advert-left{
+	border-bottom: 1px solid $border;
+	padding-bottom: 5px;
+}
+
+.advert-left-head{
+	@include advert-head();
+}
+
+.advert-left-foot{
+	@include advert-foot();
+}
+
+/* end advert */
+
+/* company */
+
+.company{
+	@include sidebar-item();
+}
+
+.company-head{
+	@include sidebar-item-head();
+}
+
+.company-head-header{
+	@include sidebar-item-head-color();
+}
+
+.company-head-see-all{
+	@include sidebar-item-head-seeall();
+}
+
+.company-body-item{
+	padding: 15px 0 5px 0;
+}
+
+.company-body-item h4{
+	margin: 0;
+	padding-bottom: 5px;	
+}
+
+.company-body-item h4 a{
+	@include sidebar-item-head-link();
+}
+
+.company-info{
+	@include sidebar-item-info();
+}
+
+.company-info-img{
+	@include sidebar-item-img();
+}
+
+.company-info-desc p{
+	@include sidebar-item-desc-p();
+}
+
+.company-info-desc a{
+	@include sidebar-item-desc-a();
+}
+
+/* end company */
+
+/* copyright */
+
+.copyright{
+	color: $light-blue;
+	font-size: 0.9em;
+}
+
+.copyright a{
+	color: $light-blue;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+/* end copyright */
+
+@import 'left-media';

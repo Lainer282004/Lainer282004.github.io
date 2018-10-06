@@ -1,0 +1,24 @@
+body {
+  font-family: 'Proxima Nova Rg';
+  font-size: 14px;
+  color: $black;  
+}
+
+main{
+	max-width: 1440px;
+	min-width: 970px;	
+	margin: 0 auto;
+	padding: 10px 0;
+
+	display: flex;
+}
+
+@media (max-width: 970px) {
+	main{
+		max-width: 100%;
+		min-width: 100%;	
+		margin: 0;
+
+		flex-direction: column;
+	}
+}

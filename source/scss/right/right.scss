@@ -1,0 +1,120 @@
+.right{
+	flex: 0 0 220px;
+	padding: 0 10px 20px 0;
+}
+
+/* people & product */
+
+.people{
+	@include sidebar-item();
+}
+
+.people-head{
+	@include sidebar-item-head();
+}
+
+.people-head-header{
+	@include sidebar-item-head-color();
+}
+
+.people-head-see-all{
+	@include sidebar-item-head-seeall();
+}
+
+.people-body-item{
+	padding-bottom: 5px;
+}
+
+.people-body-item h4{
+	margin: 0;
+	padding: 15px 0 5px 0;	
+}
+
+.people-body-item h4 a{
+	@include sidebar-item-head-link();
+}
+
+.people-info{
+	@include sidebar-item-info();
+}
+
+.people-info-img{
+	@include sidebar-item-img();
+}
+
+.people-info-desc p{
+	@include sidebar-item-desc-p();
+}
+
+.people-info-desc a{
+	@include sidebar-item-desc-a();
+}
+
+/* end people */
+
+/* product */
+
+.product{
+	@include sidebar-item();
+}
+
+.product-head{
+	@include sidebar-item-head();
+}
+
+.product-head-header{
+	@include sidebar-item-head-color();
+}
+
+.product-head-see-all{
+	@include sidebar-item-head-seeall();
+}
+
+.product-body-item{
+	padding-bottom: 5px;
+}
+
+.product-body-item h4{
+	margin: 0;
+	padding: 15px 0 5px 0;	
+}
+
+.product-body-item h4 a{
+	@include sidebar-item-head-link();
+}
+
+.product-info{
+	@include sidebar-item-info();
+}
+
+.product-info-img{
+	@include sidebar-item-img();
+}
+
+.product-info-desc p{
+	@include sidebar-item-desc-p();
+}
+
+.product-info-desc a{
+	@include sidebar-item-desc-a();
+}
+
+.product-info p{
+	padding-right: 25px;
+}
+
+/* end product */
+
+/* advert */
+
+.advert-head{
+	@include advert-head();
+}
+
+.advert-foot{
+	@include advert-foot();
+}
+
+/* end advert */
+
+@import 'right-media';

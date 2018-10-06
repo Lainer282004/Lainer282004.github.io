@@ -1,0 +1,72 @@
+/* sidebar item */
+
+@mixin sidebar-item(){
+	border-bottom: 1px solid $border;
+	padding: 15px 0;
+}
+
+@mixin sidebar-item-head(){
+	display: flex;
+	justify-content: space-between;
+}
+
+@mixin sidebar-item-head-color(){
+	color: $dark-blue;
+}
+
+@mixin sidebar-item-head-seeall(){
+	color: $black;
+	text-decoration: none;
+	font-weight: bold;
+	padding-right: 5px;
+}
+
+@mixin sidebar-item-head-link(){
+	text-decoration: none;
+	font-size: 1.1em;
+	color: $black;
+}
+
+@mixin sidebar-item-info(){
+	display: flex;
+}
+
+@mixin sidebar-item-img(){
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;
+}
+
+@mixin sidebar-item-desc-p(){
+	padding: 0 0 5px 0;
+	margin: 0;
+	color: $dark-blue;
+}
+
+@mixin sidebar-item-desc-a(){
+	text-decoration: none;
+	color: $black;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+/* end sidebar item */
+
+/* advert */
+
+@mixin advert-head(){
+	font-size: 1em;
+	margin: 0;
+	padding: 20px 0;
+	color: $dark-blue;
+	font-weight: 100;
+}
+
+@mixin advert-foot(){
+	font-size: 0.8em;
+	color: $light-blue;
+	margin: 0;
+	padding: 5px 0 10px 0;
+}
+
+/* end advert */

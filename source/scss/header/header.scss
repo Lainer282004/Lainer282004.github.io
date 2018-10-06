@@ -1,0 +1,102 @@
+@import 'header-sprite';
+
+.header-wrap{
+	height: 65px;	
+	min-width: 970px;
+	background: $green;
+	border-bottom: 2px solid $dark-green;
+}
+
+header{
+	max-width: 1440px;
+	min-width: 970px;
+	height: 65px;
+	margin: 0 auto;
+
+	display: flex;
+	align-items: center;
+}
+
+.logo{
+	flex: 0 0 160px;
+	margin-left: 10px;
+}
+
+.header-search-wrap{
+	flex: 1 1 100%;	
+}
+
+.header-search-form{
+	display: flex;
+	align-items: center;
+	background: $middle-green;
+	height: 35px;
+	border-radius: 5px;
+}
+
+.header-search-submit{
+	width: 16px;
+	height: 16px;
+	background: url("../img/search-btn.png");
+	border: 0;
+	outline: none;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.header-search-input{
+	border: 0;
+	outline: none;
+	background: none;	
+	width: 100%;
+	padding: 0 10px 0 0;
+	color: $white;
+}
+
+.header-search-input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px $dark-green inset;      
+    caret-color: $white;
+}
+
+.header-search-input:-webkit-autofill:focus, .header-search-input:-webkit-autofill:hover{
+	-webkit-text-fill-color: $white !important;
+}
+
+.header-search-input::placeholder {
+	color: $white;
+	font-size: 1.1em;
+}
+
+.header-messages-wrap{
+	flex: 2 0 140px;	
+}
+
+.header-messages{
+	display: flex;
+	justify-content: center;
+}
+
+.header-messages a{
+	margin: 0 10px;
+}
+
+.header-user-wrap{
+	flex: 2 0 230px;
+	white-space: nowrap;
+}
+
+.header-user{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: $white;
+	font-size: 1.1em;
+	padding-right: 10px;
+}
+
+.header-user img{
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+@import 'header-media';

@@ -1,0 +1,32 @@
+@media (max-width: 970px) {
+
+	.right{		
+		padding: 10px;		
+	}
+
+	.people-body, .product-body{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+    .people-body-item, .product-body-item{
+		flex: 1 1 250px;
+	}
+
+	.people-head-see-all, .product-head-see-all{		
+		padding-right: 0px;
+	}
+
+	.advert{
+		display: flex;		
+		flex-direction: column;			
+		justify-content: center;
+		align-items: center;
+	}
+
+	.advert a{
+		display: block;
+	}
+
+}

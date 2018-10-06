@@ -1,0 +1,22 @@
+.icon-header{
+	display: inline-block;
+	width: 26px; 
+	height: 24px;
+	background: url('../img/header-sprite.png');
+	margin: 5px;
+}
+
+.bg-h_s_options {
+    width: 26px; height: 24px;
+    background-position: -10px -10px;
+}
+
+.bg-h_s_bell {
+    width: 26px; height: 24px;
+    background-position: -10px -54px;
+}
+
+.bg-h_s_message {
+    width: 26px; height: 24px;
+    background-position: -10px -98px;
+}
